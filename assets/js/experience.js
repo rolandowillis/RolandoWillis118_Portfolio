@@ -8,6 +8,7 @@ const exp = [
     title: "Senior Full-stack Developer",
     cardImage: "assets/images/experience-page/upwork.png",
     place: "San Francisco, USA",
+    tech: "React, Node.js, Hapi.js, PostgreSQL, AWS, Docker, SCSS",
     time: "(July, 2020 - present)",
     desp: "<li>Rebuilt and improved an existing app from MVP to a secure version with fully developed planned functionalities.</li> <li>Planned and executed all of the processes needed to launch and maintain the app.</li><li>Designed and implemented the application's front-end architecture with React, Redux, and JavaScript.</li><li>Designed and implemented the application's back-end architecture with hapi.js and PostgreSQL database.</li><li>Designed and built a hierarchical comment system for a social app with a focus on performance and good UX.</li><li>Added tests on the back end, reaching 80% coverage.</li><li>Fixed security issues on the back end and front end.</li>",
   },
@@ -15,6 +16,7 @@ const exp = [
     title: "Full Stack Developer",
     cardImage: "assets/images/experience-page/apico.png",
     place: "Copenhagen, Denmark",
+    tech: "AngularJS, Express.js, Node.js, Bootstrap, React",
     time: "(May, 17 - Mar, 20)",
     desp: "<li>Migrated an app from AngularJS to React.</li><li>Adjusted the look of the app using Bootstrap.</li><li>Reviewed code and supported other contributors.</li><li>Used babel and webpack for compiling and bundling the project.</li>",
   },
@@ -22,12 +24,14 @@ const exp = [
     title: "Software Engineer",
     cardImage: "assets/images/experience-page/diceus.png",
     place: "Hellerup, Denamrk",
+    tech: "HTML, CSS, SQL, Java, JavaScript",
     time: "(June, 15 - Feb, 17)",
     desp: "<li>Modernized the JavaScript code of the front-end by dividing into libraries which increased its simplicity and readability.</li><li>Created a reusable module using Java for generating PDF documents based on data from a database and HTML forms and integrated it with an existing product.</li><li>Built new pieces of the application from top to bottom using Java, JavaScript, HTML, CSS, and SQL.</li><li>Fixed bugs and adjusted the back-end and front-end of the product for the needs of clients.</li>", },
   {
     title: "Web Developer",
     cardImage: "assets/images/experience-page/home.png",
     place: "Copenhagen, Denamrk",
+    tech: "HTML, CSS, JavaScript, Django, Python",
     time: "(Mar, 13 - Mar, 15)",
     desp: "<li>Designed and implemented fully functional websites from top to bottom.</li><li>Designed relational databases for the use with websites.</li><li>Developed software using RESTful APIs with Node.js and Express.js</li><li>Built full websites using Python Django.</li><li>Worked with clients on planning and designing products.</li>",
   },
@@ -36,7 +40,7 @@ const exp = [
 const showCards2 = () => {
   let output = "";
   exp.forEach(
-    ({ title, cardImage, place, time, tech, desp }) =>
+    ({ title, cardImage, place, time, desp }) =>
       (output += `        
     <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
       <div class="card card1">
@@ -48,8 +52,8 @@ const showCards2 = () => {
             </div>
             <p class="meta">
               <span class="pre-heading">${place}</span><br>
-              <span class="author">${time}</span>
-              <span class="author">${tech}</span>
+              <span class="author">${time}</span> <br>       
+              <span class="tech">${tech}</span>    
             </p>
             <ol>
               ${desp}
@@ -70,29 +74,25 @@ const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
     title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
-    tech: "React, Node.js, Hapi.js, PostgreSQL, AWS, Docker, SCSS",
+    cardImage: "assets/images/experience-page/1.jpg",  
     description:
       "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
   },
   {
     title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
-    tech: "AngularJS, Express.js, Node.js, Bootstrap, React",
+    cardImage: "assets/images/experience-page/2.jpg",   
     description:
       "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
   },
   {
     title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
-    tech: "HTML, CSS, SQL, Java, JavaScript",
+    cardImage: "assets/images/experience-page/3.jpg",    
     description:
       "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
   },
   {
     title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
-    tech: "HTML, CSS, JavaScript, Django, Python",
+    cardImage: "assets/images/experience-page/4.jpg",   
     description:
       "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
   },

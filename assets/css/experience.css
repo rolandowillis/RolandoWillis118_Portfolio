@@ -281,6 +281,10 @@ ul ol {
   font-size: 12px;
 }
 
+.card-body .tech {
+  font-size: 14px;
+}
+
 .card-body h3 {
   font-size: 2rem;
   margin-top: 5px;
