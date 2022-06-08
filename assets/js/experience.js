@@ -5,25 +5,31 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Senior Full-stack Developer",
+    cardImage: "assets/images/experience-page/upwork.png",
+    place: "San Francisco, USA",
+    time: "(July, 2020 - present)",
+    desp: "<li>Rebuilt and improved an existing app from MVP to a secure version with fully developed planned functionalities.</li> <li>Planned and executed all of the processes needed to launch and maintain the app.</li><li>Designed and implemented the application's front-end architecture with React, Redux, and JavaScript.</li><li>Designed and implemented the application's back-end architecture with hapi.js and PostgreSQL database.</li><li>Designed and built a hierarchical comment system for a social app with a focus on performance and good UX.</li><li>Added tests on the back end, reaching 80% coverage.</li><li>Fixed security issues on the back end and front end.</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Full Stack Developer",
+    cardImage: "assets/images/experience-page/apico.png",
+    place: "Copenhagen, Denmark",
+    time: "(May, 17 - Mar, 20)",
+    desp: "<li>Migrated an app from AngularJS to React.</li><li>Adjusted the look of the app using Bootstrap.</li><li>Reviewed code and supported other contributors.</li><li>Used babel and webpack for compiling and bundling the project.</li>",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Software Engineer",
+    cardImage: "assets/images/experience-page/diceus.png",
+    place: "Hellerup, Denamrk",
+    time: "(June, 15 - Feb, 17)",
+    desp: "<li>Modernized the JavaScript code of the front-end by dividing into libraries which increased its simplicity and readability.</li><li>Created a reusable module using Java for generating PDF documents based on data from a database and HTML forms and integrated it with an existing product.</li><li>Built new pieces of the application from top to bottom using Java, JavaScript, HTML, CSS, and SQL.</li><li>Fixed bugs and adjusted the back-end and front-end of the product for the needs of clients.</li>", },
+  {
+    title: "Web Developer",
+    cardImage: "assets/images/experience-page/home.png",
+    place: "Copenhagen, Denamrk",
+    time: "(Mar, 13 - Mar, 15)",
+    desp: "<li>Designed and implemented fully functional websites from top to bottom.</li><li>Designed relational databases for the use with websites.</li><li>Developed software using RESTful APIs with Node.js and Express.js</li><li>Built full websites using Python Django.</li><li>Worked with clients on planning and designing products.</li>",
   },
 ];
 
